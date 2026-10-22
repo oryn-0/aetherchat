@@ -1,0 +1,39 @@
+# ============================================================================
+# AetherChat — Senior Technical SEO robots.txt Configuration
+# Ready for Vercel Edge Network Deployment
+# ============================================================================
+
+# Global Crawler Directives
+User-agent: *
+Allow: /
+Allow: / sitemap.xml
+Allow: /site.webmanifest
+
+# Prevent indexing of ephemeral private room hashes or query parameters
+Disallow: /*?roomKey=*
+Disallow: /*?invite=*
+Disallow: /*?token=*
+Disallow: /api/
+Disallow: /_vercel/
+
+# Googlebot Specific Optimization
+User-agent: Googlebot
+Allow: /
+Disallow: /*?roomKey=*
+
+# Bingbot Specific Optimization
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# AI & Unsolicited Bulk Scraper Controls (Optional Brand Protection)
+User-agent: GPTBot
+Allow: /
+Disallow: /*?roomKey=*
+
+User-agent: CCBot
+Disallow: /
+
+# Canonical XML Sitemap Location
+Sitemap: https://aetherchat.vercel.app/sitemap.xml
+Host: https://aetherchat.vercel.app

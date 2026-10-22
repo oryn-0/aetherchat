@@ -1,0 +1,19 @@
+{
+  "name": "AetherChat — Anonymous Global P2P Chat",
+  "short_name": "AetherChat",
+  "description": "100% Frontend-Only Anonymous Global Chat with Real-Time Profanity Shield, WebSocket P2P Mesh, and Zero Backend Storage.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "categories": ["social", "communication", "security", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f172a'/%3E%3Cpath d='M25 50a25 25 0 1150 0c0 14-11 25-25 25H28l-8 8v-22a25 25 0 015-11z' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='42' cy='50' r='4' fill='%2310b981'/%3E%3Ccircle cx='58' cy='50' r='4' fill='%2310b981'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
